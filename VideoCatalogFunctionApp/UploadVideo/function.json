@@ -1,0 +1,16 @@
+﻿{
+  "functionName": "UploadVideo",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [ "post" ],
+      "route": "UploadVideo"
+    },
+    {
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+}
